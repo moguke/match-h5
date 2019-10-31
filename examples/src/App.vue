@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <transition :name="Direction.transitionName">
-      <vnode-cache>
-        <router-view id="page-view" v-if="isRouterAlive"></router-view>
-      </vnode-cache>
-    </transition>
-    <lg-preview></lg-preview>
-    <TabBar></TabBar>
+      <transition :name="Direction.transitionName">
+          <vnode-cache>
+              <router-view id="page-view" v-if="isRouterAlive"></router-view>
+          </vnode-cache>
+      </transition>
+      <lg-preview></lg-preview>
+      <TabBar></TabBar>
   </div>
 </template>
 
@@ -51,8 +51,7 @@ export default {
 #app
   width: 100%;
   height:100%;
-  background-image:url('../static/images/other/bg.png')
-  background-size cover
+  background:#1d459c;
   #page-view
     width: 100%;
     position:absolute;
