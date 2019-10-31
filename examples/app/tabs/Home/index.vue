@@ -9,8 +9,8 @@
     export default {
         data() {
             return {
-                homeImgs:require('../../../static/images/bgImg.jpg'),
-                homeButtonImgs:require('../../../static/images/home-button.png'),
+                homeImgs:require('../../../static/images/other/bgImg.jpg'),
+                homeButtonImgs:require('../../../static/images/other/home-button.png'),
             }
         },
         methods:{

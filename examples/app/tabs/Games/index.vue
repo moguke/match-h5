@@ -31,7 +31,7 @@ export default {
             {imgUrl:defaultImg4,id:4},
             {imgUrl:defaultImg5,id:5},
         ],
-        defaultHome:require('../../../static/images/home.png')
+        defaultHome:require('../../../static/images/other/home.png')
     }
   },
   created () {

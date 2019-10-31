@@ -31,8 +31,8 @@ export default {
         name: '',
         text:'',
         dataList:[],
-        closeImgs:require('../../../static/images/back.png'),
-        titleImgs:require('../../../static/images/title.png'),
+        closeImgs:require('../../../static/images/other/back.png'),
+        titleImgs:require('../../../static/images/other/title.png'),
         swiperOption: {
           notNextTick: true,
           //循环

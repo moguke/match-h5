@@ -2,7 +2,7 @@
   <page>
       <div class="broadcastBj">
           <div class="broadcastClose">
-              <img :src="closeImgs" alt="" @click="goTo()">
+              <!--<img :src="closeImgs" alt="" @click="goTo()">-->
           </div>
           <div class='broadcastLists'>
               <div class="broadcastTontent">当前是{{name}}详情页{{id}}</div>
@@ -19,7 +19,7 @@ export default {
       id: 0,
       name: '',
       items:[],
-      closeImgs:require('../../../static/images/close.png'),
+      //closeImgs:require('../../../static/images/other/close.png'),
     }
   },
   created() {

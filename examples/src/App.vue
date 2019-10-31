@@ -51,7 +51,7 @@ export default {
 #app
   width: 100%;
   height:100%;
-  background-image:url('../static/images/bg.png')
+  background-image:url('../static/images/other/bg.png')
   background-size cover
   #page-view
     width: 100%;

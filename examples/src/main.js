@@ -9,18 +9,6 @@ import VueAppScroller from 'vue-app-scroller';
 import VnodeCache from '../../src/index'
 import http from '../config/http'
 //import axios from 'axios'
-import loading from '../static/loading001.gif'
-
-/*import MintUI from 'mint-ui'
-import 'mint-ui/lib/style.css'
-Vue.use(MintUI, {
-    lazyload: {
-        preLoad: 0,
-        error: '../static/loading001.gif',
-        loading: '../static/loading001.gif',
-        attempt: 1,
-    },
-})*/
 
 import vuePicturePreview from 'vue-picture-preview'  //引入图片查看器
 Vue.use(vuePicturePreview)

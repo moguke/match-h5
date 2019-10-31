@@ -32,9 +32,9 @@
 export default {
     data () {
         return {
-            defaultImg01: require('../../../examples/static/img/icon01.png'),
-            defaultImg02: require('../../../examples/static/img/icon02.png'),
-            defaultImg03: require('../../../examples/static/img/icon03.png'),
+            defaultImg01: require('../../../examples/static/images/other/icon01.png'),
+            defaultImg02: require('../../../examples/static/images/other/icon02.png'),
+            defaultImg03: require('../../../examples/static/images/other/icon03.png'),
         }
     },
     method:{
