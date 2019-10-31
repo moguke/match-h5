@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/GamesDetail/index",
+    "pages/BroadcastDetail/index",
+    "pages/CheerDetail/index"
+  ],
+  "barPages":[
+    "tabs/Home/index",
+    "tabs/Broadcast/index",
+    "tabs/Games/index",
+    "tabs/Cheer/index",
+    "tabs/Song/index"
+  ],
+  "commonPage":"pages/Player/index"
+}
